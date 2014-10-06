@@ -1,0 +1,12 @@
+{
+  "linters": {
+    "cpp": {
+      "type": "cppcheck",
+      "include": "(\\.[cpp|h]$)"
+    },
+    "xml": {
+      "type": "xml",
+      "include": "(\\.[xml]$)"
+    }
+  }
+}
