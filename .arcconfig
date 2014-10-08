@@ -1,4 +1,4 @@
 {
 	"project.name": "phab-test",
-	"phabricator.uri": "http://phab0.met.no"
+	"phabricator.uri": "https://phab0.met.no"
 }
