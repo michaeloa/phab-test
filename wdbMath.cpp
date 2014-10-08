@@ -57,12 +57,11 @@ namespace wdb
 
 double round(double value, int nPrecision)
 {
-  static int newVariable = 1;
     static const double doBase = 10.0;
     double doComplete5;
     double doComplete5i;
 
-    doComplete5 = value * pow(doBase, (double) (nPrecision + 1)) * newVariable;
+    doComplete5 = value * pow(doBase, (double) (nPrecision + 1));
 
     if(value < 0.0)
         doComplete5 -= 5.0;
